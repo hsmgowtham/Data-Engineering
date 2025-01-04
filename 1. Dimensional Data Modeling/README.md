@@ -24,6 +24,7 @@
     2. username, password same as what we defined in `.env` file
     3. Save the connection.
 3. navigate -> schemas -> tables -> actors -> view first 100 rows
+4. Our Setup is done.
 
 **Quick Commands**
 - To Start containers in detached mode `docker-compose up -d`
