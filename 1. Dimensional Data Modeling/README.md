@@ -7,17 +7,17 @@
 - Database management environment (DataGrip, DBeaver, VS Code with extensions, etc.)
 - Docker, Docker Compose, and Docker Desktop
 
-# Prerequisites
+**Prerequisites**
 - Install and setup docker-desktop
 
-**Run Postgres and PGAdmin in Docker**
+### 1. Run Postgres and PGAdmin in Docker
 - clone the repo, open the terminal at Dimensional Data modelling
 - Rename the `example.env` to `.env`
 - Start the docker using `docker-compose up -d`
 
 - In browser, open localhost:5050, this is where pgadmin is running from the config we gave in `.env` and `docker-compose.yaml`
 
-**Open PgAdmin**
+### 2. Open PgAdmin
 1. Right click -> Register server -> give name "Data Modeling"
 2. Under connections,
     1. Give the host as container name of postgres which we defined in docker-compose.yaml. In my case it's `postgres`. it's not localhost
