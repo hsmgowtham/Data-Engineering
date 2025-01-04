@@ -11,11 +11,10 @@
 - Install and setup docker-desktop
 
 ### 1. Run Postgres and PGAdmin in Docker
-- clone the repo, open the terminal at Dimensional Data modelling
-- Rename the `example.env` to `.env`
-- Start the docker using `docker-compose up -d`
-
-- In browser, open localhost:5050, this is where pgadmin is running from the config we gave in `.env` and `docker-compose.yaml`
+1. clone the repo, open the terminal at Dimensional Data modelling
+2. Rename the `example.env` to `.env`
+3. Start the docker using `docker-compose up -d`
+4. In browser, open localhost:5050, this is where pgadmin is running from the config we gave in `.env` and `docker-compose.yaml`
 
 ### 2. Open PgAdmin
 1. Right click -> Register server -> give name "Data Modeling"
